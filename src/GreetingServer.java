@@ -12,7 +12,7 @@ public class GreetingServer extends Thread
    }
 
    @SuppressWarnings("deprecation")
-public void run()
+   public void run()
    {
       while(true)
       {
@@ -43,6 +43,7 @@ public void run()
          }
       }
    }
+   /*
    public static void main(String [] args)
    {
       int port = 1100;
@@ -55,4 +56,5 @@ public void run()
          e.printStackTrace();
       }
    }
+   */
 }
